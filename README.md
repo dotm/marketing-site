@@ -1,3 +1,33 @@
+TODO:
+
+- remove grid lines from hero
+- in footer: about us, privacy policy, Terms & Conditions, refund & returns policy
+  - also create the pages
+- header links: home, blog, shop, contact us
+  - also create the pages
+- install daisyui
+- review color and spacing
+
+- product list based on ssr
+- product detail page
+
+- blog post list
+- blog post detail
+
+- customize: url, logo, favicon, copy, fonts?, colors?
+
+optional:
+
+- wishlist
+- cart
+- checkout (shipping and payment)
+- thank you page
+
+- account sign up, sign in, sign out.
+- account details: wishlist, order history, addresses, contact details (email, phone), payment methods, etc.
+
+- check with seo tools
+
 # Astro Starter Kit: Basics
 
 ```sh
