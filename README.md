@@ -1,27 +1,28 @@
 TODO:
 
-- remove grid lines from hero
-- in footer: about us, privacy policy, Terms & Conditions, refund & returns policy
-  - also create the pages
-- header links: home, blog, shop, contact us
-  - also create the pages
+shop:
+- product list based on rss: search/sort/filter, product grid
+  - product grid: image, name, price and discount, cta (contact us or add to cart)
+- product detail page:
+  - images + videos, name, price and discount, short description, stock available, cta (contact us or add to cart)
+  - long description, additional info, reviews
+
+blog:
+- blog post list: date?, title, image, excerpt, read more link
+- blog post detail: title, image, content, related posts
+
 - install daisyui
 - review color and spacing
-
-- product list based on ssr
-- product detail page
-
-- blog post list
-- blog post detail
-
 - customize: url, logo, favicon, copy, fonts?, colors?
 
-optional:
+ecommerce (optional):
 
 - wishlist
 - cart
 - checkout (shipping and payment)
 - thank you page
+
+account (optional):
 
 - account sign up, sign in, sign out.
 - account details: wishlist, order history, addresses, contact details (email, phone), payment methods, etc.
