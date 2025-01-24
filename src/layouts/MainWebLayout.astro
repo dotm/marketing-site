@@ -2,9 +2,19 @@
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import Layout from '../layouts/Layout.astro';
+import { SITE_TITLE, SITE_DESCRIPTION, SITE_IMAGE } from '../constenum';
+
+interface Props {
+	title?: string;
+	description?: string;
+	image?: string;
+}
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+
+const { title = SITE_TITLE, description = SITE_DESCRIPTION, image = SITE_IMAGE } = Astro.props;
 ---
 
-<Layout>
+<Layout title={title} description={description} image={image}>
 	<Header />
 	<slot />
 	<Footer />

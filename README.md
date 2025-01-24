@@ -7,13 +7,21 @@ shop:
   - images + videos, name, price and discount, short description, stock available, cta (contact us or add to cart)
   - long description, additional info, reviews
 
-blog:
-- blog post list: date?, title, image, excerpt, read more link
-- blog post detail: title, image, content, related posts
-
-- install daisyui
+review:
 - review color and spacing
-- customize: url, logo, favicon, copy, fonts?, colors?
+- check with seo tools
+
+other (optional):
+- color:
+  - menu bg color
+  - menu text color
+  - bg color
+  - primary color
+  - body text color
+  - h1-6: shades of one color (most contrast with bg to less)
+  - button bg
+  - button text
+- blog post detail: related posts
 
 ecommerce (optional):
 
@@ -27,7 +35,16 @@ account (optional):
 - account sign up, sign in, sign out.
 - account details: wishlist, order history, addresses, contact details (email, phone), payment methods, etc.
 
-- check with seo tools
+## Usage
+
+- copy and adjust astro.config.mjs
+- add plugins: npx astro add sitemap
+- npm install -D @tailwindcss/typography
+  - then add require('@tailwindcss/typography') in tailwind.config.mjs
+- copy components and pages as necessary
+  - you can also add new and modify existing components
+- customize: url, logo, favicon, copy, fonts, color scheme
+- test and then deploy
 
 # Astro Starter Kit: Basics
 
