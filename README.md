@@ -1,5 +1,8 @@
 TODO:
 
+- Collect email newsletter
+- Connect contact us to Google form
+
 shop:
 - product list based on rss: search/sort/filter, product grid
   - product grid: image, name, price and discount, cta (contact us or add to cart)
@@ -8,6 +11,8 @@ shop:
   - long description, additional info, reviews
 
 review:
+- banner
+- privacy notice
 - review color and spacing
 - check with seo tools
 
@@ -22,6 +27,14 @@ other (optional):
   - button bg
   - button text
 - blog post detail: related posts
+- CTA section
+- bento grids
+- pricing section
+- newsletter section
+- statistics section
+- our team section
+- logo cloud
+- FAQs
 
 ecommerce (optional):
 
@@ -44,6 +57,7 @@ account (optional):
 - copy components and pages as necessary
   - you can also add new and modify existing components
 - customize: url, logo, favicon, copy, fonts, color scheme
+- setup google analytics
 - test and then deploy
 
 # Astro Starter Kit: Basics
