@@ -1,9 +1,16 @@
+---
+import { CONTACT_US_URL, EMAIL_NEWSLETTER_SUBSCRIPTION_URL } from "../constenum";
+---
 <footer class="bg-white">
   <div class="mx-auto max-w-7xl px-6 pb-8 pt-8 sm:pt-12 lg:px-8 lg:pt-16">
     <div class="xl:grid xl:grid-cols-3 xl:gap-8">
       <div>
-        <h3 class="text-sm/6 font-semibold text-gray-900">Our vision and our mission</h3>
-        <p class="mt-2 text-sm/6 text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum ullamcorper enim, a iaculis massa bibendum in.</p>
+        <h3 class="text-sm/6 font-semibold text-gray-900">
+          Our vision and our mission
+        </h3>
+        <p class="mt-2 text-sm/6 text-gray-600">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum ullamcorper enim, a iaculis massa bibendum in.
+        </p>
       </div>
       <div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
         <div class="md:grid md:grid-cols-2 md:gap-8">
@@ -22,7 +29,7 @@
             <h3 class="text-sm/6 font-semibold text-gray-900">Support</h3>
             <ul role="list" class="mt-6 space-y-4">
               <li>
-                <a href="/contact-us" class="text-sm/6 text-gray-600 hover:text-gray-900">Contact us</a>
+                <a href={CONTACT_US_URL} target="_blank" class="text-sm/6 text-gray-600 hover:text-gray-900">Contact us</a>
               </li>
             </ul>
           </div>
@@ -43,7 +50,7 @@
                 <a href="/privacy-policy" class="text-sm/6 text-gray-600 hover:text-gray-900">Privacy policy</a>
               </li>
               <li>
-                <a href="/return-and-refund-policy" class="text-sm/6 text-gray-600 hover:text-gray-900">Return and refund policy</a>
+                <a href="/returns-and-refunds-policy" class="text-sm/6 text-gray-600 hover:text-gray-900">Returns and refunds policy</a>
               </li>
               <li>
                 <a href="/terms-and-conditions" class="text-sm/6 text-gray-600 hover:text-gray-900">Terms and conditions</a>
@@ -59,10 +66,15 @@
         <p class="mt-2 text-sm/6 text-gray-600">The latest news, articles, and resources, sent to your inbox weekly.</p>
       </div>
       <form class="mt-6 sm:flex sm:max-w-md lg:mt-0">
-        <label for="email-address" class="sr-only">Email address</label>
+        <!-- <label for="email-address" class="sr-only">Email address</label>
         <input type="email" name="email-address" id="email-address" autocomplete="email" required class="w-full min-w-0 rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:w-56 sm:text-sm/6" placeholder="Enter your email">
         <div class="mt-4 sm:ml-4 sm:mt-0 sm:shrink-0">
           <button type="submit" class="flex w-full items-center justify-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Subscribe</button>
+        </div> -->
+        <div class="mt-4 sm:ml-4 sm:mt-0 sm:shrink-0">
+          <a href={EMAIL_NEWSLETTER_SUBSCRIPTION_URL} target="_blank" class="flex w-full items-center justify-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+            Subscribe here
+          </a>
         </div>
       </form>
     </div>

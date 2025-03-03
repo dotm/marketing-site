@@ -4,3 +4,5 @@
 export const SITE_TITLE = 'Astro Blog';
 export const SITE_DESCRIPTION = 'Welcome to my website!';
 export const SITE_IMAGE = '/blog-placeholder-1.jpg';
+export const EMAIL_NEWSLETTER_SUBSCRIPTION_URL = '#';
+export const CONTACT_US_URL = '#';

@@ -1,7 +1,31 @@
-TODO:
+Usage:
 
-- Collect email newsletter
-- Connect contact us to Google form
+- npm create astro@latest your-project-name -- --template dotm/marketing-site
+- Find and replace all marketing-site to your-project-name
+- Find and replace all Your Company to your real company name
+- npm install
+- Adjust astro.config.mjs and src/constenum.ts
+- Add plugins if necessary: npx astro add sitemap
+- Customize:
+  - mandatory:
+    - copywriting and images on all pages (mandatory)
+    - Use https://flowbite.com/icons for HomeFeatures and HomeBlogEntrance icons
+      - Or just remove the icons to save time
+    - comment out HomeTestimonials and footer's social media if you don't have it yet
+  - low priority: company logo (can be commented out), favicon, fonts, color scheme
+- Create a GMail account
+- Create a google form for email newsletter subscription (email marketing)
+  - Add this in src/constenum.ts
+- Create a google form for contact us
+  - Add this in src/constenum.ts
+- Make some SEO-optimized blog posts with good copywriting and sales psychology
+- Setup google analytics
+- Review:
+  - banner
+  - privacy notice
+  - color and spacing
+  - check with seo tools (Lighthouse, etc.)
+- Test and then deploy
 
 shop:
 - product list based on rss: search/sort/filter, product grid
@@ -10,13 +34,8 @@ shop:
   - images + videos, name, price and discount, short description, stock available, cta (contact us or add to cart)
   - long description, additional info, reviews
 
-review:
-- banner
-- privacy notice
-- review color and spacing
-- check with seo tools
-
 other (optional):
+
 - color:
   - menu bg color
   - menu text color
@@ -47,18 +66,6 @@ account (optional):
 
 - account sign up, sign in, sign out.
 - account details: wishlist, order history, addresses, contact details (email, phone), payment methods, etc.
-
-## Usage
-
-- copy and adjust astro.config.mjs
-- add plugins: npx astro add sitemap
-- npm install -D @tailwindcss/typography
-  - then add require('@tailwindcss/typography') in tailwind.config.mjs
-- copy components and pages as necessary
-  - you can also add new and modify existing components
-- customize: url, logo, favicon, copy, fonts, color scheme
-- setup google analytics
-- test and then deploy
 
 # Astro Starter Kit: Basics
 
