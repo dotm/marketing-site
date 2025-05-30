@@ -16,14 +16,17 @@ Usage:
 - Create a GMail account
 - Create a google form for email newsletter subscription (email marketing)
   - Add this in src/constenum.ts
+  - Make sure to turn on: get notifications via email from response tab
 - Create a google form for contact us
   - Add this in src/constenum.ts
+  - Make sure to turn on: get notifications via email from response tab
 - Make some SEO-optimized blog posts with good copywriting and sales psychology
 - Setup google analytics
 - Review:
   - banner
   - privacy notice
   - color and spacing
+  - try sharing web link in social media or chat app (to check open graph meta tags)
   - check with seo tools (Lighthouse, etc.)
 - Test and then deploy
 

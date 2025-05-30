@@ -4,6 +4,9 @@ Generate Terms & Conditions with LLM:
 
 ```
 Act as a legal expert. Write me a comprehensive terms and conditions page for my website.
+
+Don't forget to add rules and penalties against user abuse.
+
 My website name is ___
 My business name is ___
 I sell ___
